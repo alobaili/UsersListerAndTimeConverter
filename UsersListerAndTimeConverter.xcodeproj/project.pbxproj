@@ -14,6 +14,7 @@
 		4B6E6D6B273C4E9F00629AB8 /* UsersListerAndTimeConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E6D6A273C4E9F00629AB8 /* UsersListerAndTimeConverterTests.swift */; };
 		4B6E6D75273C4E9F00629AB8 /* UsersListerAndTimeConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E6D74273C4E9F00629AB8 /* UsersListerAndTimeConverterUITests.swift */; };
 		4B6E6D77273C4E9F00629AB8 /* UsersListerAndTimeConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E6D76273C4E9F00629AB8 /* UsersListerAndTimeConverterUITestsLaunchTests.swift */; };
+		4B6E6D85273C544100629AB8 /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6E6D84273C544100629AB8 /* NetworkManager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6E6D85273C544100629AB8 /* NetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = UsersListerAndTimeConverter;
+			packageProductDependencies = (
+				4B6E6D84273C544100629AB8 /* NetworkManager */,
+			);
 			productName = UsersListerAndTimeConverter;
 			productReference = 4B6E6D56273C4E9900629AB8 /* UsersListerAndTimeConverter.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 4B6E6D4D273C4E9900629AB8;
+			packageReferences = (
+				4B6E6D83273C544100629AB8 /* XCRemoteSwiftPackageReference "NetworkManager" */,
+			);
 			productRefGroup = 4B6E6D57273C4E9900629AB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -605,6 +613,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B6E6D83273C544100629AB8 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alobaili/NetworkManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B6E6D84273C544100629AB8 /* NetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B6E6D83273C544100629AB8 /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B6E6D4E273C4E9900629AB8 /* Project object */;
 }

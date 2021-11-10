@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NetworkManager",
+        "repositoryURL": "https://github.com/alobaili/NetworkManager.git",
+        "state": {
+          "branch": null,
+          "revision": "bc294cc9e00b90dd32bcd7dab1fcef79898af176",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
