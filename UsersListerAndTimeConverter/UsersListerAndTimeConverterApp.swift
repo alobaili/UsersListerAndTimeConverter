@@ -16,6 +16,11 @@ struct UsersListerAndTimeConverterApp: App {
                     .tabItem {
                         Label("Users", systemImage: "person.3.sequence")
                     }
+
+                TimeConverterView()
+                    .tabItem {
+                        Label("Time Converter", systemImage: "clock.arrow.2.circlepath")
+                    }
             }
         }
     }
