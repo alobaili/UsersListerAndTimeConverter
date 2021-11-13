@@ -11,7 +11,12 @@ import SwiftUI
 struct UsersListerAndTimeConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                UsersList()
+                    .tabItem {
+                        Label("Users", systemImage: "person.3.sequence")
+                    }
+            }
         }
     }
 }
