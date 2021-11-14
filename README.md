@@ -1,5 +1,5 @@
 # UsersListerAndTimeConverter
-An app that lists users and converts time from 12 hour format to 24 hour format
+An app that lists users and converts time from 12 hour format to 24 hour format.
 
 The app is consisted of two tabs.
 
