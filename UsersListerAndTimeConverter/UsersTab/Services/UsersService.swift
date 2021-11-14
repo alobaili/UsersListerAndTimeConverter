@@ -13,7 +13,7 @@ protocol UsersProvider {
     func getUsers() async throws -> [User]
 }
 
-/// A service repressents a remote service that can be used.
+/// A service represents a remote service that can be used.
 /// The service specifies how JSON keys should be decoded and
 /// has an instance of the `NetworkManager`. This hides implementation
 /// details about how the JSON keys look like and
