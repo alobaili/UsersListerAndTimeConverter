@@ -16,7 +16,7 @@ protocol UsersProvider {
 /// A service repressents a remote service that can be used.
 /// The service specifies how JSON keys should be decoded and
 /// has an instance of the `NetworkManager`. This hides implementation
-/// details about how the JSON keys look like and how the requests and
+/// details about how the JSON keys look like and
 /// how the requests and responses are handled.
 struct UsersService: UsersProvider {
     private var jsonDecoder: JSONDecoder = {
