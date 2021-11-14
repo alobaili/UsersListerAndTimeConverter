@@ -22,7 +22,6 @@ struct UsersList: View {
         } message: {
             Text(viewModel.errorMessage)
         }
-        
     }
 }
 
