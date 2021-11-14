@@ -29,6 +29,7 @@
 		4B6E6D5E273C4E9F00629AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6E6D5D273C4E9F00629AB8 /* Assets.xcassets */; };
 		4B6E6D61273C4E9F00629AB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6E6D60273C4E9F00629AB8 /* Preview Assets.xcassets */; };
 		4B6E6D85273C544100629AB8 /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6E6D84273C544100629AB8 /* NetworkManager */; };
+		4BF0A8F027416A30009CA031 /* TimeConverterViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0A8EF27416A30009CA031 /* TimeConverterViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		4B6E6D5D273C4E9F00629AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6E6D60273C4E9F00629AB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B6E6D66273C4E9F00629AB8 /* UsersListerAndTimeConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersListerAndTimeConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF0A8EF27416A30009CA031 /* TimeConverterViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConverterViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				4B1E84612740136300809CC5 /* TimeConverterTests.swift */,
+				4BF0A8EF27416A30009CA031 /* TimeConverterViewModelTests.swift */,
 			);
 			path = TimeConverter;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				4B625D10273FFC3F00C3F2A1 /* TestError.swift in Sources */,
 				4B625D0A273EF6CF00C3F2A1 /* UsersListViewModelTests.swift in Sources */,
 				4B625D0E273FEB3B00C3F2A1 /* UsersServiceStub.swift in Sources */,
+				4BF0A8F027416A30009CA031 /* TimeConverterViewModelTests.swift in Sources */,
 				4B625D0C273FE91000C3F2A1 /* UserFixture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
